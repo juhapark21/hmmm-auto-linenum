@@ -1,12 +1,12 @@
-# hmmm-auto-linenum README
+# HMMM-Auto-Linenum
+
+Auto line numbers your HMMM code!
 
 ## Features
 
-Auto line numbers your HMMM code! 
-
-- New line number upon entering   
-- Line numbers automatically readjust when commenting out and moving lines 
-- `jumpn` values automatically readjust 
+- New line number upon entering
+- Line numbers automatically readjust when commenting out and moving lines
+- `jumpn` values automatically readjust
 
 ![demo video](assets/demo.gif)
 
