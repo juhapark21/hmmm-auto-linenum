@@ -52,5 +52,9 @@
   "overrides": {
     "diff": "^8.0.4",
     "serialize-javascript": "^7.0.6"
+  }, 
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/juhapark21/hmmm-auto-linenum"
   }
 }
