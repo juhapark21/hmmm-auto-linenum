@@ -7,6 +7,10 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # These permissions are mandatory for Trusted Publishing to fetch an OIDC token
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,5 +24,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Publish to VS Marketplace
-        run: npx @vscode/vsce publish -p ${{ secrets.VSCE_TOKEN }}
+      - name: Publish to VS Marketplace via Trusted Publishing
+        run: npx @vscode/vsce publish --oidc
