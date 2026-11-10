@@ -1,6 +1,6 @@
 # HMMM-Auto-Linenum
 
-Auto line numbers your HMMM code!
+Auto line numbers your HMMM ([Harvey Mudd Miniature Machine](https://www.cs.hmc.edu/~cs5grad/cs5/hmmm/documentation/documentation.html)) code!
 
 ## Features
 
