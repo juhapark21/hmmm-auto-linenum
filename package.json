@@ -3,6 +3,7 @@
   "displayName": "HMMM Auto Linenum",
   "description": "Automatically number your lines in hmmm!",
   "version": "0.0.1",
+  "publisher": "juhapark", 
   "engines": {
     "vscode": "^1.139.0"
   },
